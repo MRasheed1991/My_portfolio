@@ -19,7 +19,7 @@ body {
   color: white;
 }
 
-.ul-list {
+ul li {
   border: 2px solid white;
   margin: 5px;
   padding: 5px;
