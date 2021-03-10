@@ -4,43 +4,83 @@
   box-sizing: border-box;
 }
 
-body {
+/*body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/background-image1.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
-}
+  position: relative;
+}*/
 
 .sidebar {
   float: left;
   height: 100vh;
-  width: 20vw;
+  width: 15%;
   color: white;
   position: absolute;
-  background-color: rgb(49, 47, 47);
+  background-color: rgb(41, 38, 38);
 }
 
 ul li {
   list-style: none;
-  margin: 30px;
-  padding: 5px;
+  margin-top: 10%;
+  padding: 5px 5px;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
   color: gray;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.ul-list {
+  text-align: center;
+  margin-top: 50%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 .heading1 {
   text-align: right;
   margin-right: 15%;
-  margin-top: 50px;
   font-family: serif;
   font-size: 40px;
-  color: white;
+  color: black;
 }
-main div {
-  color: white;
-  float: right;
-  margin-right: 20px;
+
+main {
+  margin-left: 20%;
 }
+
+main h2,
+p {
+  color: black;
+}
+
+main img {
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 150px;
+  display: inline-flexbox;
+  border-radius: 30px;
+}
+
+footer p {
+  text-align: right;
+  color: black;
+  position: absolute;
+  width: 85%;
+  bottom: 0px;
+  background-color: white;
+  margin-top: 5%;
+  padding: 30px;
+  border-top: 2px dashed black;
+  margin-left: 15%;
+}
+
+@keyframes;
