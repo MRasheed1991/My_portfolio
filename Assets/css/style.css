@@ -1,88 +1,107 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
 }
-
-/*body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../images/background-image1.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  position: relative;
-}*/
 
 .sidebar {
   float: left;
   height: 100vh;
   width: 15%;
-  color: white;
-  position: absolute;
-  background-color: rgb(41, 38, 38);
+  background-color: rgb(249, 253, 7);
+  top: 0%;
+  position: fixed;
 }
 
 ul li {
-  list-style: none;
-  margin-top: 10%;
-  padding: 5px 5px;
-  cursor: pointer;
-  font-size: 20px;
-  color: gray;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border: 2px solid gray;
-  border-radius: 10px;
-  width: 150px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 25px;
+  border: 3px solid white;
+  margin-left: 25px;
+  list-style-type: none;
+  padding: 5px;
+  color: navy;
+  border-radius: 40px;
+  text-align: center;
 }
 
-.ul-list {
-  text-align: center;
-  margin-top: 50%;
+ul {
+  margin-right: 5%;
+}
+
+ul :hover {
+  color: gray;
+  background-color: white;
+}
+
+.top-box {
+  display: inline;
+}
+
+.top-box img {
+  height: 350px;
+  border-radius: 50%;
+  float: right;
+  margin-right: px;
+  margin-bottom: 20px;
+  top: 0%;
+}
+
+ul {
+  margin-top: 40%;
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
-.heading1 {
-  text-align: right;
-  margin-right: 15%;
-  font-family: serif;
-  font-size: 40px;
-  color: black;
-}
-
 main {
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 17%;
+  margin-top: 250px;
 }
 
-main h2,
-p {
-  color: black;
+.main-heading {
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 60px;
+  font-size: 40px;
 }
 
-main img {
-  margin-left: 10%;
+.main-heading h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: yellowgreen;
+}
 
+.content1 {
+  width: 100%;
   height: 400px;
-  display: inline-flexbox;
-  float: right;
-  border-radius: 50%;
-  margin-right: ;
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.myproject {
+  box-sizing: border-box;
+  display: inline;
+  background-image: url(../images/mypic.jpg);
+  background-size: 100px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.content1 div {
+  margin-top: 10px;
+}
+
+footer {
+  bottom: 0%;
+  padding: 20px;
+  border-top: 2px dashed black;
 }
 
 footer p {
   text-align: right;
-  color: black;
-  position: absolute;
-  width: 85%;
-  bottom: 0px;
-  background-color: white;
-  margin-top: 5%;
-  padding: 30px;
-  border-top: 2px dashed black;
-  margin-left: 15%;
 }
-
-@keyframes;
