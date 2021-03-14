@@ -37,26 +37,28 @@ ul :hover {
   transform: translateX(5px) translateY(5px);
 }
 
-.top-box {
-  display: inline;
-  top: 0%;
-  margin-top: 0px;
-  padding: 0px;
-}
-
-.top-box img {
+section img {
   height: 350px;
   border-radius: 50%;
   float: right;
   margin-bottom: 20px;
+  margin-top: -7em;
+  position: relative;
+  margin-right: 20px;
 }
-
-/*ul {
-  margin-top: 40%;
-}*/
 
 a {
   text-decoration: none;
+}
+
+.main-heading {
+  text-align: left;
+  margin-left: 25%;
+  margin-top: 5em;
+}
+
+.main-heading {
+  font-size: 30px;
 }
 
 main {
@@ -66,17 +68,10 @@ main {
   margin-bottom: 10px;
 }
 
-.main-heading {
-  text-align: left;
-  margin-left: 25%;
-  margin-top: 10px;
-  font-size: 40px;
-}
-
 .main-heading h2 {
-  font-size: 30px;
+  font-size: 70px;
   font-family: Arial, Helvetica, sans-serif;
-  color: yellowgreen;
+  color: gold;
 }
 
 .content1 {
