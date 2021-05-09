@@ -12,3 +12,6 @@ click[here](https://mrasheed1991.github.io/homework_2_portfolio/)
 -
 
 # Screenshots
+
+![screenshot-1](./Assets/screenshot/screenshot-1.png)
+![screeshot-2](./Assets/screenshot/screenshot-2.png)
