@@ -1,6 +1,6 @@
 # Portfolio
 
-click[here](https://mrasheed1991.github.io/homework_2_portfolio/)
+click [here](https://mrasheed1991.github.io/homework_2_portfolio/) to view the deployed application
 
 # Description
 
@@ -9,7 +9,7 @@ click[here](https://mrasheed1991.github.io/homework_2_portfolio/)
 - i had to link all these to my navbar.
 - in the contact me section i was asked to provide link to my sociel media accounts.
 - in the my project section i had to display my projects and then link them to the project website.
--
+- one of the requirement was to make the website mobile responsive which was a hard task for me
 
 # Screenshots
 
