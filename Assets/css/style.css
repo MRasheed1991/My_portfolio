@@ -1,4 +1,9 @@
 html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,18 +18,27 @@ body {
   padding: 0;
 }
 
+.page-header {
+  background: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  top: 0px;
+  max-height: 30%;
+  padding: 10px;
+}
+
 .nav-bar {
   display: flex;
-  background: rgba(0, 0, 0, 0.4);
-  margin-top: 0;
-  height: 70px;
   list-style: none;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .nav-bar li {
-  margin: auto;
   font-size: 2rem;
+}
+
+.nav-bar li:hover {
+  background-color: gray;
 }
 
 .nav-bar a {
@@ -32,29 +46,22 @@ body {
   color: white;
 }
 
-.nav-bar a:hover {
-  background-color: yellow;
-  color: cornflowerblue;
-  text-transform: uppercase;
-}
-
 .header-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
+  border: 1px solid yellow;
+  padding: 20px;
 }
 
 .main-heading {
   display: inline;
   color: white;
-  margin-left: 100px;
 }
-
 
 .profile-img img {
   max-height: 250px;
   border-radius: 50%;
-  margin: 50px;
 }
 
 .main-heading h1 {
@@ -73,8 +80,6 @@ body {
 }
 
 .about-me {
-  border-top: 2px s
-  border-width: 60%;
 }
 
 .my-project-title {
@@ -119,12 +124,12 @@ body {
 .contact-me-div {
   background-color: yellow;
   background-size: cover;
-
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   border-radius: 5px;
   margin: 5px;
+  padding: 1rem;
 }
 
 .contact-me-div h3 {
@@ -151,6 +156,45 @@ body {
 
 .main-heading h1 {
   animation: floatInFromRight 2s ease-out;
+}
+
+@media screen and (max-width: 400px) {
+  .page-header {
+    padding: 0%;
+  }
+  .nav-bar {
+    text-align: center;
+  }
+  .nav-bar li {
+    flex-basis: 100%;
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid cornflowerblue;
+  }
+
+  .main-heading {
+    text-align: center;
+  }
+  .main-heading h1 {
+    font-size: 2rem;
+  }
+
+  .main-heading h2 {
+    font-size: 2.5rem;
+  }
+
+  .main-heading h3 {
+    font-size: 2rem;
+  }
+
+  .project-card img {
+    width: 90vw;
+  }
+
+  .social-link {
+    margin: 5px;
+  }
 }
 
 @keyframes floatInFromRight {
