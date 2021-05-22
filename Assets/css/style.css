@@ -119,6 +119,9 @@ body {
 
 .project-card h3 {
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: yellow;
+  margin-top: 0.3rem;
 }
 
 .project-card {
@@ -157,11 +160,14 @@ body {
 .footer {
   text-align: center;
   bottom: 0px;
+  margin: 0.3rem;
+  border: 2px solid yellow;
+  padding: 1rem;
 }
 
-.footer p {
+/* .footer p {
   bottom: 0;
-}
+} */
 
 .main-heading h1 {
   animation: floatInFromRight 2s ease-out;
