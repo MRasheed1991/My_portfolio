@@ -117,6 +117,15 @@ body {
   filter: grayscale(0);
 }
 
+.project-card h3 {
+  text-align: center;
+}
+
+.project-card {
+  border-top: 3px solid yellow;
+  margin-top: 0.5rem;
+}
+
 .image-div {
   border-radius: 1rem;
 }
