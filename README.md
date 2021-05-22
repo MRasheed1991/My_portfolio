@@ -1,6 +1,6 @@
 # Portfolio
 
-click [here](https://mrasheed1991.github.io/homework_2_portfolio/) to view the deployed application
+click [here](https://mrasheed1991.github.io/My_portfolio/) to view the deployed application
 
 # Description
 
